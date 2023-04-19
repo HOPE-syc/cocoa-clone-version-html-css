@@ -16,3 +16,10 @@
   width: 6px;
   height: 6px;
 }
+
+.cog-dot__width__column {
+  position: absolute;
+  top: 99px;
+  right: 38px;
+  border-radius: 3px;
+}

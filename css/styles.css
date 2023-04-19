@@ -5,22 +5,40 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/Screen-header.css";
+@import "components/alt-screen-header.css";
 @import "components/user-component.css";
 @import "components/badge.css";
+@import "components/icon-row.css";
+@import "components/animations.css";
+@import "components/no-mobile.css";
 
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
 @import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
   color: #2e363e;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-
-  height: 1000vh;
+  padding-top: 30px;
 }
 
-.main-screen {
+.chat-screen {
+  padding: 0px 25px;
+}
+
+.find-screen {
+  padding: 0px 40px;
+}
+
+.more-screen {
   padding: 0px 20px;
+}
+
+.settings-screen {
+  padding: 0px 45px;
 }
